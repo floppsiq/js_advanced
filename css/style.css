@@ -1,0 +1,26 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+main {
+	padding-left: calc(50% - 570px);
+    padding-right: calc(50% - 570px);
+}
+.header {
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #eeeeee;
+}
+.products {
+    display: flex;
+    justify-content: space-around;
+	flex-flow: row wrap;
+}
+.product__item {
+    padding: 30px;
+}
+.product__img {
+	width: 200px
+}
