@@ -15,9 +15,7 @@ const renderProduct = (title, price, id, img = 'https://liftshop24.ru/custom/cus
 };
 
 const renderProducts = list => {
-  const productList = list.map((product) => {
-      return renderProduct(product.title, product.price, product.id);
-  });
+  const productList = list.map((product) => renderProduct(product.title, product.price, product.id));
   // console.log(productList);
   document.querySelector('.products').innerHTML = productList.join('');
 }
