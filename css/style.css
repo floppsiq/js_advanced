@@ -12,6 +12,8 @@ main {
     justify-content: flex-end;
     align-items: center;
     background-color: #eeeeee;
+	padding-left: calc(50% - 570px);
+    padding-right: calc(50% - 570px);
 }
 .products {
     display: flex;
